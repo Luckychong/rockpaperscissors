@@ -5,7 +5,11 @@
 //GLOBAL VARIABLES
 /* global $ */
 
+$(".button").click(function(){
+<input id= "">
+<button id=""> Go! </button>
 
+});
 
 // DOCUMENT READY FUNCTION BELOW
 
