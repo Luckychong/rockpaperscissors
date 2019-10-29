@@ -5,9 +5,25 @@
 //GLOBAL VARIABLES
 /* global $ */
 
-$(".button").click(function(){
-<input id= "">
-<button id=""> Go! </button>
+$("#shoot").click(function(){
+
+    let hands = $("#input").val()
+    console.log(hands)
+    $("#userChoice").text(hands)
+    let computer = $("#input").val()
+    $("#computerChoice").text(computer)
+    console.log(computer)
+    let computer = Math.random()
+    console.log(computer);
+    if (computer > .80) {
+        $("#text").html(rock);
+    }
+    else if (computer > .60) {
+        $("text").html(scissors);
+    }
+    else if (computer > .40) {
+        $("text").html(paper);
+    }
 
 });
 
