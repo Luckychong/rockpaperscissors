@@ -35,7 +35,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 - [x] In your click handler, store the input value in a variable
 - [x] In your click handler, display user input to the screen
 #### Wrap
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Day 3
 

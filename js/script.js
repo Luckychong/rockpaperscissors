@@ -16,13 +16,18 @@ $("#shoot").click(function(){
     let computer = Math.random()
     console.log(computer);
     if (computer > .80) {
-        $("#text").html(rock);
+        $("#text").html("rock");
     }
     else if (computer > .60) {
-        $("text").html(scissors);
+        $("text").html("scissors");
     }
     else if (computer > .40) {
-        $("text").html(paper);
+        $("text").html("paper");
+    }
+    else if (computer > .20) {
+        $("text").html("rock");
+
+    if (userInput == "rock" && computerChoice == "rock" )
     }
 
 });
